@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function displayMessage(message, sender) {
         const messageElement = document.createElement('div');
         messageElement.classList.add(sender === 'user' ? 'user-message' : 'bot-message');
-        messageElement.textContent = message;
+        messageElement.textContent = "lol";
         chatbox.appendChild(messageElement);
         chatbox.scrollTop = chatbox.scrollHeight;
     }
